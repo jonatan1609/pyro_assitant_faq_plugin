@@ -39,5 +39,5 @@ def answer_inline_query(_, i: InlineQuery):
                     ),
                     thumb_url='https://imgur.com/BXXK3Nj.png'
                 ) for title, url in faqs
-            ], cache_time=1, is_personal=True
+            ], cache_time=10
         )
